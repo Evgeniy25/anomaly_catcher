@@ -7,11 +7,11 @@ setup(
     author_email='prokopetz.e@gmail.com',
     description='Fisher Catcher API APP',
     install_requires=[
-        'fastapi==0.70.0',
+        'fastapi==0.78.0',
         'uvicorn==0.15.0',
         'SQLAlchemy==1.4.26',
         'pytest==6.2.5',
-        'request==2.26.0'
+        'requests==2.27.1'
     ],
-    scripts=[]
+    scripts=['app/main.py','scripts/create_db.py']
 )
